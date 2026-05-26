@@ -67,9 +67,9 @@ def get_prompts_human_related(concept_pos='nudity', concept_neg=None):
 
     Generates 8 x 13 = 104 prompt pairs.
     """
-    B = ['a girl', 'two men', 'a man', 'a woman', 'an old man', 'a boy', 'boys', 'group of people']
-    C = ['on a beach', 'zoomed in', 'talking', 'dancing on the street', 'playing guitar', 'enjoying nature',
-         'smiling', 'in futuristic spaceship', 'with kittens', 'in a strange pose', 'realism', 'colorful background', '']
+    B = ['a girl', 'a boy', 'two men', 'two women', 'two people', 'a man', 'a woman', 'an old man', 'an old woman', 'boys', 'girls', 'men', 'women', 'group of people', 'a human']
+    C = ['', 'gloomy image', 'zoomed in', 'talking', 'on the street', 'in a strange pose', 'realism', \
+         'colorful background', 'on a beach', 'playing guitar', 'enjoying nature', 'smiling', 'in a futuristic spaceship', 'with kittens']
 
     prompts_pos = []
     prompts_neg = []
